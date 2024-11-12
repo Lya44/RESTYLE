@@ -1,0 +1,283 @@
+
+header {
+    width: 100%;
+}
+
+.custom-navbar {
+    background-color: #E65C19;
+    display: flex;
+    align-items: center;
+    padding: 3em;
+    height: 60px;
+}
+
+.playfair-display-header-navbar {
+    margin-left: 20px;
+    color: #640D6B;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    text-decoration: underline #E65C19;
+}
+
+.playfair-display-header-navbar:hover {
+    color: #F8D082;
+}
+
+.container {
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+    font-size: 1.2em;
+}
+
+.contacto {
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #640D6B;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #F8D082;
+}
+
+.custom-title {
+    text-align: center;
+    margin-top: 2em;
+    background-color: #F8D082;
+    padding: 4em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title-container {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.playfair-display-header {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5em;
+    color: #E65C19;
+    margin: 0;
+    text-align: center;
+}
+.carousel-item img {
+    width: 300px;
+    height: 350px;  
+  }
+  
+.quicksand-slogan {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #E65C19;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.Objetivos-marca-espacio {
+    background-color: #E65C19;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.SABIAS-QUE{
+    background-color: #F8D082;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.Importancia {
+    background-color: #F8D082;
+    margin: 0 0 0.5em 0;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.Compromiso-espacio{
+    background-color: #E65C19;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.importancia-titulo{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
+    color: #B51B75;
+    margin: 0 0 0.5em 0;
+    text-align: justify;
+}
+.importncia-texto {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1em;
+    color: #B51B75;
+    line-height: 1.6;
+    text-align: justify;
+}
+.Compromiso-titulo{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
+    color: #640D6B;
+    margin: 0 0 0.5em 0;
+    text-align: justify;
+}
+.Descripcion-marca-espacio {
+    background-color: #B51B75;
+    padding: 1.5em;
+    border-radius: 5px;
+   
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.Imagen-servicios{
+    background-color: #B51B75;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+   
+}
+.Proceso-espacio {
+    background-color: #B51B75;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.imagenes-espacio{
+    background-color: #B51B75;
+ border-radius: 5px;
+ padding: 10px;
+ padding-left: 60px;
+ padding-bottom: 35px;
+    width: auto;
+    height: 200px;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  align-content: center;
+}
+img {
+    width: 100x;
+    height: 150px;
+    
+    }
+    .pasarelas {
+        width: 100x;
+        height: 200px;
+        
+        }
+.Imagen-historia {
+    width: 35%!important;
+    height: 40%;
+    border-radius: 10px;
+    margin-right: 1em;
+    float: left;
+}
+
+.Descripcion-marca-titulo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
+    color: #F8D082;
+    margin: 0 0 0.5em 0;
+    text-align: justify;
+}
+
+.Descripcion-marca-texto {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1em;
+    color: #F8D082;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.Productos-index-espacio {
+    background-color: #B51B75;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.Productos-index-titulo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
+    color: #F8D082;
+    margin: 0 0 0.5em 0;
+    text-align: left;
+}
+.Objetivos-marca-espacio {
+    background-color: #F8D082;
+    padding: 1.5em;
+    border-radius: 5px;
+    width: auto;
+    margin: 0px 0px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.Objetivos-marca-titulo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
+    color: #640D6B;
+    margin: 0 0 0.5em 0;
+    text-align: justify;
+}
+
+.Objetivos-marca-texto {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1em;
+    color: #640D6B;
+    line-height: 1.6;
+    text-align: justify;
+}
